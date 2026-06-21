@@ -22,9 +22,9 @@
         </div>
 
         <div class="card">
-            <h2>Found Items</h2>
-            <p>0</p>
-        </div>
+    <h2>Found Items</h2>
+    <p id="foundCount">0</p>
+</div>
     </section>
 
     <section class="buttons">
@@ -34,6 +34,15 @@
         <button>Report Found Item</button>
 
     </section>
+    <section class="search-section">
+
+    <input
+        type="text"
+        id="searchInput"
+        placeholder="Search item..."
+    >
+
+</section>
     <section class="form-section">
 
     <h2>Report Lost Item</h2>
@@ -60,6 +69,39 @@
     <h2>Lost Item Reports</h2>
 
     <div id="lostItemsContainer"></div>
+
+</section>
+<!-- FOUND ITEM FORM -->
+
+<section class="form-section">
+
+    <h2>Report Found Item</h2>
+
+    <form id="foundForm">
+
+        <input type="text" placeholder="Item Name">
+
+        <input type="text" placeholder="Location Found">
+
+        <input type="date">
+
+        <input type="text" placeholder="Contact Number">
+
+        <textarea placeholder="Description"></textarea>
+
+        <button type="submit">
+            Submit Found Item
+        </button>
+
+    </form>
+
+</section>
+
+<section class="reports">
+
+    <h2>Found Item Reports</h2>
+
+    <div id="foundItemsContainer"></div>
 
 </section>
 <script src="script.js"></script>

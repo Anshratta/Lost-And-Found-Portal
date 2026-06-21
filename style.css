@@ -88,3 +88,14 @@ textarea{
     border-radius:12px;
     box-shadow:0px 2px 10px rgba(0,0,0,0.2);
 }
+.search-section{
+    width:80%;
+    margin:30px auto;
+}
+
+#searchInput{
+    width:100%;
+    padding:15px;
+    border-radius:10px;
+    border:1px solid #ccc;
+}
